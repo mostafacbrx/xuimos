@@ -1,10 +1,10 @@
 # S-UI
 **An Advanced Web Panel • Built on SagerNet/Sing-Box**
 
-![](https://img.shields.io/github/v/release/alireza0/s-ui.svg)
+![](https://img.shields.io/github/v/release/mostafacbrx/s-ui.svg)
 ![S-UI Docker pull](https://img.shields.io/docker/pulls/alireza7/s-ui.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/alireza0/s-ui)](https://goreportcard.com/report/github.com/alireza0/s-ui)
-[![Downloads](https://img.shields.io/github/downloads/alireza0/s-ui/total.svg)](https://img.shields.io/github/downloads/alireza0/s-ui/total.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mostafacbrx/s-ui)](https://goreportcard.com/report/github.com/mostafacbrx/s-ui)
+[![Downloads](https://img.shields.io/github/downloads/mostafacbrx/s-ui/total.svg)](https://img.shields.io/github/downloads/mostafacbrx/s-ui/total.svg)
 [![License](https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 > **Disclaimer:** This project is only for personal learning and communication, please do not use it for illegal purposes, please do not use it in a production environment
@@ -29,13 +29,13 @@
 
 ## Screenshots
 
-!["Main"](https://github.com/alireza0/s-ui-frontend/raw/main/media/main.png)
+!["Main"](https://github.com/mostafacbrx/s-ui-frontend/raw/main/media/main.png)
 
-[Other UI Screenshots](https://github.com/alireza0/s-ui-frontend/blob/main/screenshots.md)
+[Other UI Screenshots](https://github.com/mostafacbrx/s-ui-frontend/blob/main/screenshots.md)
 
 ## API Documentation
 
-[API-Documentation Wiki](https://github.com/alireza0/s-ui/wiki/API-Documentation)
+[API-Documentation Wiki](https://github.com/mostafacbrx/s-ui/wiki/API-Documentation)
 
 ## Default Installation Information
 - Panel Port: 2095
@@ -55,13 +55,13 @@ bash <(curl -Ls https://raw.githubusercontent.com/mostafacbrx/s-ui/master/instal
 **Step 1:** To install your desired legacy version, add the version to the end of the installation command. e.g., ver `1.0.0`:
 
 ```sh
-VERSION=1.0.0 && bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/$VERSION/install.sh) $VERSION
+VERSION=1.0.0 && bash <(curl -Ls https://raw.githubusercontent.com/mostafacbrx/s-ui/$VERSION/install.sh) $VERSION
 ```
 
 ## Manual installation
 
-1. Get the latest version of S-UI based on your OS/Architecture from GitHub: [https://github.com/alireza0/s-ui/releases/latest](https://github.com/alireza0/s-ui/releases/latest)
-2. **OPTIONAL** Get the latest version of `s-ui.sh` [https://raw.githubusercontent.com/alireza0/s-ui/master/s-ui.sh](https://raw.githubusercontent.com/alireza0/s-ui/master/s-ui.sh)
+1. Get the latest version of S-UI based on your OS/Architecture from GitHub: [https://github.com/alireza0/s-ui/releases/latest](https://github.com/mostafacbrx/s-ui/releases/latest)
+2. **OPTIONAL** Get the latest version of `s-ui.sh` [https://raw.githubusercontent.com/alireza0/s-ui/master/s-ui.sh](https://raw.githubusercontent.com/mostafacbrx/s-ui/master/s-ui.sh)
 3. **OPTIONAL** Copy `s-ui.sh` to /usr/bin/ and run `chmod +x /usr/bin/s-ui`.
 4. Extract s-ui tar.gz file to a directory of your choice and navigate to the directory where you extracted the tar.gz file.
 5. Copy *.service files to /etc/systemd/system/ and run `systemctl daemon-reload`.
